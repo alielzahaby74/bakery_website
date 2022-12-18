@@ -1,0 +1,204 @@
+
+
+ /* custom */
+ h2
+ {
+    font-family: 'Martian Mono', monospace;
+ }
+ body
+ {
+     
+     margin: 0;
+     padding: 0;
+ }
+
+ nav
+ {
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    height: 97vh;
+    text-align: center;
+    color: #fff;
+ }
+ nav .slider-content
+ {
+    
+    padding-top: 150px;
+ }
+ nav .slider-content p
+{
+    text-shadow: -2px 0px 4px black;
+}
+ nav button
+{
+    border-radius: 5px;
+    border: 0;
+    background-color: transparent;
+    padding: 15px 20px;
+    color: #fff;
+}
+ nav .learn
+ {
+    background-color: #8e7754;
+ }
+ nav .about
+ {
+    border: 1px solid #fff;
+ }
+
+.container
+{
+    margin: 25px 0;
+    /* background-color: aquamarine; */
+}
+.about-us
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+ img
+{
+    width: 100%;
+}
+
+.about-content
+{
+    padding: 15px 20px 0 0;
+}
+.para-padding
+{
+    padding: 40px;
+}
+.bg-gray
+{
+    background-color: #f8f8f8;
+}
+.ourlocation
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.our-baking
+{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    /* background-color: aqua; */
+    
+}
+
+.our-baking .item
+{
+    width: 30.5%;
+    text-align: center;
+    display: inline-block;
+    margin: 5px 10px;
+    /* background-color: tomato; */
+}
+
+.contact
+{
+    width: 90%;
+    margin: auto;
+    
+}
+.contact h2,.contact p
+{
+    text-align: center;
+    
+}
+.contact .contact-text
+{
+    float: left;
+}
+.contact .contact-text div,span
+{
+    margin: 25px 0;
+}
+.contact-map
+{
+    float: right;
+}
+
+
+.bg-dark-gray
+{
+    background-color: #403d38;
+}
+.mt-25
+{
+    margin-top: 25px;
+}
+.details
+{
+    width: 95%;
+    margin: auto;
+}
+.details h2
+{
+    color: #fff;
+    padding: 15px 0;
+}
+.details p, .details a
+{
+    color: #969696;
+}
+
+.details .details-item
+{
+    width: 23%;
+    float: left;
+    margin-left: 15px;
+}
+.details .details-item a
+{
+    display: block;
+    padding: 10px 0;
+}
+
+.details .details-item .box
+{
+    border-bottom: 1px solid #303030
+}
+
+.footer
+{
+    background-color: #353330;
+    margin: auto;
+    text-align: center;
+    color: #969696;
+}
+
+.footer div
+{
+    padding-top: 10px;
+    width: 20%;
+    margin: auto;
+}
+.footer h6
+{
+    margin: 0;
+    padding: 10px 0 20px 0 ;
+}
+.w-49
+{
+    width: 49%;
+}
+
+.float-right
+{
+    float: right;
+}
+.float-left
+{
+    float: left;
+}
+.clear-fix
+{
+    clear: both;
+}
+ /* float */
