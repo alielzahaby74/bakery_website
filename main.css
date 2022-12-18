@@ -1,17 +1,20 @@
 
 
  /* custom */
- h2
+ h2,h4
  {
     font-family: 'Martian Mono', monospace;
  }
  body
  {
-     
      margin: 0;
      padding: 0;
  }
 
+ p,li,a
+ {
+    font-size: 20px;
+ }
  nav
  {
     background-image: url(images/drew-coffman-1872.jpg);
@@ -41,14 +44,25 @@
  {
     background-color: #8e7754;
  }
+ nav .learn:hover
+ {
+    background-color: #fff;
+    color: #000;
+ }
  nav .about
  {
     border: 1px solid #fff;
  }
+ nav .about:hover
+ {
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #000;
+ }
 
 .container
 {
-    margin: 25px 0;
+    margin: 40px 0;
     /* background-color: aquamarine; */
 }
 .about-us
@@ -56,6 +70,12 @@
     width: 80%;
     margin: auto;
     text-align: center;
+}
+
+.about-us .list
+{
+    text-align: left;
+    margin: 10px 20px;
 }
  img
 {
@@ -115,7 +135,12 @@
 {
     float: left;
 }
-.contact .contact-text div,span
+.contact .contact-text div
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact .contact-text li
 {
     margin: 25px 0;
 }
