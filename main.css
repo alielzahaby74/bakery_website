@@ -23,6 +23,35 @@
     text-align: center;
     color: #fff;
  }
+
+ nav .navbar
+ {
+    position: fixed;
+    width: 100%;
+ }
+ nav .navbar .navbar-image
+ {
+    width: 20%;
+    float: left;
+ }
+ nav .navbar .navbar-links
+ {
+    float: right;
+    margin: 20px 10px 0 0;
+ }
+ nav .navbar .navbar-links li
+ {
+    list-style: none;
+    float: left;
+    margin: 0 10px;
+ }
+
+ nav .navbar .navbar-links li a
+ {
+    color: #fff;
+    text-decoration: none;
+ }
+
  nav .slider-content
  {
     
@@ -62,6 +91,7 @@
 
 .container
 {
+    height: 85vh;
     margin: 40px 0;
     /* background-color: aquamarine; */
 }
